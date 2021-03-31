@@ -325,3 +325,11 @@
 //remember to use id always 
 //clearTimeout(idName)
 
+//about jason
+// obj = { name: "Neaz", lenght: 1, a: { this: "that" } }; //object
+// jso = JSON.stringify(obj);  //sting   json won't accept songle quotes
+// console.log(jso);
+
+//converting json string to object
+// parsed = JSON.parse(`{"Name":"Neaz","lenght":1,"a":{"this":"that"}}`);  //backtics down to escape button
+// console.log(parsed);
